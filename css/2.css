@@ -1,0 +1,11 @@
+table{
+    border-collapse: collapse;
+    width: 700px;
+}
+thead{
+    background-color: brown;
+    height: 40px;
+}
+td{
+    max-width: 350px;
+}

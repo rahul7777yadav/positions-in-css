@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/2.css">
+</head>
+<body>
+    <h1>Difference between Relative and Absolute position</h1>
+    <!-- table  start-->
+    <table border="1">
+        <!-- table head start-->
+        <thead>
+            <tr>
+                <th>Relative</th>
+                <th>Absolute</th>
+            </tr>
+        </thead>
+        <!-- table head end-->
+        <!-- table boday start -->
+        <tbody>
+            <tr>
+                <td>An element with position: relative; is positioned relative to its normal position.</td>
+                <td>An element with position: absolute; is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed).</td>
+            </tr>
+            <tr>
+                <td>Setting the top, right, bottom, and left properties of a relatively-positioned element will cause it to be adjusted away from its normal position. Other content will not be adjusted to fit into any gap left by the element.</td>
+                <td>if an absolute positioned element has no positioned ancestors, it uses the document body, and moves along with page scrolling.</td>
+            </tr>
+            <tr>
+                <td>Relative positioned elements are not removed from the normal flow, and can not overlap elements</td>
+                <td>Absolute positioned elements are removed from the normal flow, and can overlap elements</td>
+            </tr>
+        </tbody>
+        <!-- table boday end -->
+    </table>
+    <!-- table end -->
+</body>
+</html>

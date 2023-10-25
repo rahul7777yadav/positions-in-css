@@ -1,0 +1,31 @@
+.box{
+    background-color: aquamarine;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+.a{
+    left: 200px;
+    top: 200px;
+    position: relative;
+}
+.b{
+    left: -30px;
+    top: -30px;
+    position: absolute;
+}
+.c{
+    right: -30px;
+    top: -30px;
+    position: absolute;
+}
+.d{
+    left: -30px;
+    bottom: -30px;
+    position: absolute;
+}
+.e{
+    right: -30px;
+    bottom: -30px;
+    position: absolute;
+}

@@ -1,0 +1,9 @@
+.container{
+    padding: 10px;
+    background-color: beige;
+}  
+.img-content{
+    float: right;
+    width: 400px;
+    padding: 0 10px 0 10px;
+}
